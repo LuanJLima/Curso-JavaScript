@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodos do Dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section> 
+        <div>
+            <p>Ano de Nascimento:</p>
+            <input type="number" name="txtano" id="txtano" min="0">
+            <p>Sexo:</p>
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            <p>
+                <input type="button" value="Verficar" onclick="verificar">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados a cima para ver o resultado
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Feito por Luan Lima no desafio do Curso em video</p>
+    </footer>
+    <script src="scripit.js"></script>
+</body>
+</html>

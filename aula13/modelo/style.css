@@ -1,0 +1,49 @@
+@charset "UTF-8";
+:root {
+    --cor1: #042326;
+    --cor2: #0A3A40;
+    --cor3: #0F5959;
+    --cor4: #1D7373;
+     /*Paleta de cores*/
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+header > h1 {
+    
+    font-size: 3em;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+section > div{
+    background-color: lightgrey;
+    height: 200px;
+    border: solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
